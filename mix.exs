@@ -4,7 +4,7 @@ defmodule HubiX.Mixfile do
   def project do
     [app: :hubix,
      version: "0.1.0",
-     elixir: "~> 1.0",
+     elixir: "~> 1.1",
      elixirc_paths: elixirc_paths(Mix.env),
      description: "hubiC client",
      name: "hubiX",
@@ -16,7 +16,7 @@ defmodule HubiX.Mixfile do
 
 
   def application do
-    [applications: [:crypto, :httpoison],
+    [applications: [:crypto, :httpoison, :openstax_swift],
      mod: {HubiX, []}]
   end
 
@@ -41,7 +41,7 @@ defmodule HubiX.Mixfile do
 
 
   defp package do
-    [description: "HubiC client",
+    [description: "hubiC client",
      files: ["lib",  "mix.exs", "README*"],
      maintainers: ["Marcin Lewandowski"],
      licenses: ["MIT"],

@@ -16,7 +16,7 @@ defmodule HubiX do
     import Supervisor.Spec, warn: false
 
     children = [
-      worker(HubiX.AuthAgent, [[name: HubiX.AuthAgent]])
+
     ]
 
     opts = [strategy: :one_for_one, name: HubiX]

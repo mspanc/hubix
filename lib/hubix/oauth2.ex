@@ -6,17 +6,17 @@ defmodule HubiX.OAuth2 do
   require Logger
 
 
-  @log_prefix "HubiX"
+  @log_prefix "HubiX.OAuth2"
   @base_url "https://api.hubic.com"
   @request_token_base_url "/oauth/auth/"
   @exchange_code_base_url "/oauth/token/"
   @refresh_token_base_url "/oauth/token/"
-  @timeout 5000
+  @timeout 30000
   @request_headers [
     {"Content-Type", "application/x-www-form-urlencoded"},
     {"Connection", "Close"},
     {"Cache-Control", "no-cache, must-revalidate"},
-    {"User-Agent", "RadioKit Vault"}
+    {"User-Agent", "hubiX/#{HubiX.version}"}
   ]
   @request_options [timeout: @timeout, recv_timeout: @timeout, follow_redirect: false]
   @scope_string "credentials.r"
