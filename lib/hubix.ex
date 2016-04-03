@@ -7,6 +7,11 @@ defmodule HubiX do
   end
 
 
+  def register(backend_id) do
+    # TODO
+  end
+
+
   def start(_type, _args) do
     import Supervisor.Spec, warn: false
 
