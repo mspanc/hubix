@@ -6,4 +6,6 @@
   "meck": {:hex, :meck, "0.8.4"},
   "metrics": {:hex, :metrics, "1.0.1"},
   "mimerl": {:hex, :mimerl, "1.0.2"},
+  "openstax_swift": {:git, "https://github.com/mspanc/openstax_swift.git", "1fc2f251f02cdd07fefd521046b1d73198ba59cf", []},
+  "poison": {:hex, :poison, "1.5.2"},
   "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.0"}}

@@ -1,7 +1,8 @@
-# HubiX
+# hubiX
 [![Build Status](https://travis-ci.org/mspanc/hubix.svg?branch=master)](https://travis-ci.org/mspanc/hubix)
 
-HubiX provides bindings for [hubiC](http://www.hubic.com) storage.
+hubiX provides bindings for [hubiC](http://www.hubic.com) storage for the
+[Elixir](http://elixir-lang.org) programming language.
 
 
 ## Status
